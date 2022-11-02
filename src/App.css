@@ -1,0 +1,120 @@
+header {
+  height: 150px;
+
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(38, 51, 56);
+  color: white;
+  margin-bottom: 40px;
+}
+
+.conteiner {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+body {
+  background-color: rgb(237, 235, 235);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.conteinerTableaux {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+button {
+  border: 2px solid blue;
+
+  font-size: 16px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  margin-left: 25px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tableauEnTete ul {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  border: 2px solid red;
+  line-height: 50px;
+  padding-left: 15px;
+}
+
+.#C2185B {
+  background-color: #c2185b;
+}
+
+.#1976D2 {
+  background-color: #1976d2;
+}
+
+.tableau ul:nth-child(1) {
+  background-color: burlywood;
+}
+
+.tableau ul:nth-child(odd) {
+  background-color: white;
+}
+.tableau ul {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.tableau ul {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 35px;
+  color: rgb(38, 51, 56);
+  border: 2px saddlebrown solid;
+}
+.date {
+  flex: 2;
+  padding-left: 15px;
+  opacity: 60%;
+}
+.description {
+  flex: 7;
+}
+
+.amount {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15px;
+}
+.bank {
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+h1 {
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.userName {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+  margin: 20px;
+}
+
+.iconUser {
+  color: white;
+  height: 50px;
+  width: auto;
+  margin: 20px;
+}
