@@ -22,13 +22,15 @@ body {
   margin: 0 auto;
 }
 
-.button {
-  border: 2px solid blue;
+button {
   font-size: 16px;
   padding: 15px;
   margin-top: 10px;
   margin-bottom: 35px;
-  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.button {
   display: flex;
   justify-content: flex-end;
 }
@@ -43,19 +45,19 @@ body {
   padding-left: 15px;
 }
 
-.#C2185B {
+.rose {
   background-color: #c2185b;
 }
 
-.#1976D2 {
+.bleu {
   background-color: #1976d2;
 }
 
-.tableau ul:nth-child(1) {
+.test ul:nth-child(even) {
   background-color: burlywood;
 }
 
-.tableau ul:nth-child(odd) {
+.test ul:nth-child(odd) {
   background-color: white;
 }
 .tableau ul {

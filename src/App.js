@@ -22,9 +22,9 @@ const App = () => {
         <div className="conteinerTableaux">
           {data.map((elem, index) => {
             return (
-              <>
+              <dev className="test">
                 <dev className="tableauEnTete" key={index}>
-                  <ul>
+                  <ul className={elem.color === "#c2185b" ? "rose" : "blue"}>
                     <span className="name">{elem.name}</span>
                     <span className="balance">{elem.balance}</span>
                   </ul>
@@ -44,7 +44,7 @@ const App = () => {
                 <div className="button">
                   <button>SEE MORE</button>
                 </div>
-              </>
+              </dev>
             );
           })}
         </div>
