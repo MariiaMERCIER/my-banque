@@ -41,8 +41,9 @@ const App = () => {
                     </dev>
                   );
                 })}
-
-                <button>SEE MORE</button>
+                <div className="button">
+                  <button>SEE MORE</button>
+                </div>
               </>
             );
           })}
