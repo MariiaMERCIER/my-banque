@@ -21,8 +21,9 @@ const App = () => {
       <body>
         <div className="conteinerTableaux">
           {data.map((elem, index) => {
+            console.log(elem.color);
             return (
-              <dev className="test">
+              <>
                 <dev className="tableauEnTete" key={index}>
                   <ul className={elem.color === "#c2185b" ? "rose" : "blue"}>
                     <span className="name">{elem.name}</span>
@@ -44,7 +45,7 @@ const App = () => {
                 <div className="button">
                   <button>SEE MORE</button>
                 </div>
-              </dev>
+              </>
             );
           })}
         </div>

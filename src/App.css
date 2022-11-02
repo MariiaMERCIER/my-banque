@@ -53,13 +53,14 @@ button {
   background-color: #1976d2;
 }
 
-.test ul:nth-child(even) {
+.tableau ul:nth-child(even) {
   background-color: burlywood;
 }
 
-.test ul:nth-child(odd) {
+.tableau ul:nth-child(odd) {
   background-color: white;
 }
+
 .tableau ul {
   max-width: 1000px;
   margin: 0 auto;
@@ -71,7 +72,7 @@ button {
   font-size: 16px;
   line-height: 35px;
   color: rgb(38, 51, 56);
-  border: 2px saddlebrown solid;
+  border: 2px solid red;
 }
 .date {
   flex: 2;
