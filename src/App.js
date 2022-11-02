@@ -23,8 +23,8 @@ const App = () => {
           {data.map((elem, index) => {
             return (
               <>
-                <dev className="tableauEnTete">
-                  <ul key={index}>
+                <dev className="tableauEnTete" key={index}>
+                  <ul>
                     <span className="name">{elem.name}</span>
                     <span className="balance">{elem.balance}</span>
                   </ul>
@@ -32,8 +32,8 @@ const App = () => {
                 {/* {console.log(elem.operations[0])} */}
                 {elem.operations.map((elem, index) => {
                   return (
-                    <dev className="tableau">
-                      <ul key={index}>
+                    <dev key={index} className="tableau">
+                      <ul>
                         <span className="date">{elem.date}</span>
                         <span className="description">{elem.description}</span>
                         <span className="amount">{elem.amount}</span>
